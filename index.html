@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>B</title>
+
+    <!--css---------------------------------------------------------------------------------------------------------- -->
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--meta---------------------------------------------------------------------------------------------------------- -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="gradDiv"></div>
+
+    <div id="questionNum">IV</div>
+    <div id="addScore">+2556</div>
+
+    <div id="question">Which artist has sold the most albums?</div>
+
+    <div id="ans1" class="answer">Eminem</div>
+    <div id="ans2" class="answer">The Killers</div>
+    <div id="ans3" class="answer">Adele</div>
+
+    <div id="score">0</div>
+
+    <div id="flash"></div>
+
+    <img id="boosts" src="./src/img/boosts.png">
+    
+    <img id="logo" src="./src/img/bgLogo.png">
+    
+    <script id="main" type="module" src="./src/index.js"></script>
+
+    <script src="./src/howler/howler.js"></script>
+
+    <!-- mixer -->
+
+    <div id="mixer">
+
+        <input type="checkbox" id="mix"><br>
+        <input type="text" id="c1_Color"><br>
+        <input type="text" id="c2_Color"><br>
+        <input type="text" id="c3_Color"><br>
+        <input type="text" id="c4_Color"><br>
+        <input type="text" id="c5_Color"><br>
+            
+        <input type="range" min="1" max="360" value="50" class="slider" id="c1_H"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c1_S"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c1_L"><br><br>
+        
+        <input type="range" min="1" max="360" value="50" class="slider" id="c2_H"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c2_S"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c2_L"><br><br>
+        
+        <input type="range" min="1" max="360" value="50" class="slider" id="c3_H"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c3_S"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c3_L"><br><br>
+        
+        <input type="range" min="1" max="360" value="50" class="slider" id="c4_H"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c4_S"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c4_L"><br><br>
+        
+        <input type="range" min="1" max="360" value="50" class="slider" id="c5_H"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c5_S"><br>
+        <input type="range" min="1" max="100" value="50" class="slider" id="c5_L"><br><br>
+
+        <input type="range" min="0" max="100" value="1" class="slider" id="num1"><br>
+        <input type="range" min="0" max="100" value="1" class="slider" id="num2"><br>
+        <input type="range" min="0" max="100" value="1" class="slider" id="num3"><br>
+
+    </div>
+    
+
+</body>
+</html>
